@@ -1,18 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Tic-Tac-Toe Game
 
-## Getting Started
+This is a full-stack Tic-Tac-Toe game built using **React**, **Tailwind CSS**, **React Hook Form**, **@tanstack/react-query** on the frontend and **Node.js**, **Express**, **Prisma**, **Body-parser**, **Cors** on the backend. Users can play the game, save and retrieve games to continue playing at a later time.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Play Tic-Tac-Toe**: Standard 3x3 grid where two players take turns.
+- **Save Game**: Users can save their current game and come back to finish it later.
+- **View Previous Games**: List of previous games played, showing the state of the board when the game was saved.
+- **Replay Saved Games**: Users can load and continue playing from any saved game state.
+
+## Technologies
+
+### Frontend
+- **React**: For building the user interface.
+- **Tailwind CSS**: For styling the components.
+- **React Hook Form**: For handling form submission.
+- **@tanstack/react-query**: For handling server-side data fetching and caching.
+
+### Backend
+- **Node.js**: Runtime environment for executing backend JavaScript.
+- **Express.js**: Web framework to create API routes.
+- **Prisma**: ORM (Object-Relational Mapping) for database operations.
+- **Body-Parser**: Middleware for parsing incoming request bodies.
+- **Cors**: Middleware to enable cross-origin resource sharing.
+
+## Setup
+
+### Prerequisites
+
+- Node.js (>=14.x)
+- npm or yarn
+- PostgreSQL or another compatible database
+
+![image](https://github.com/user-attachments/assets/9440cd35-10fc-4944-a1c9-6918ee522f74)
+![image](https://github.com/user-attachments/assets/1bbcf3a6-921c-44d8-bcc8-1b983942a3b3)
+
+
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
