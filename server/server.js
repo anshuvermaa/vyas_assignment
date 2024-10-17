@@ -9,6 +9,12 @@ const prisma = new PrismaClient();
 app.use(cors());
 app.use(bodyParser.json());
 
+app.get('/',()=>{
+    res.status(200).json({
+        message:"server is running"
+    })
+})
+
 app.get('/games', async (req, res) => {
   const games = await prisma.game.findMany({
     orderBy: { createdAt: 'desc' },
